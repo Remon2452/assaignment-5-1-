@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBoard</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <header>
+            <div class="logo-container">
+                <img src="assets/logo.png" alt="DevBoard Logo">
+                <h1>DevBoard</h1>
+            </div>
+            <div class="right-section">
+                <div class="profile-container">
+                    <img src="assets/checkbox.png" alt="Profile Image">
+                    <span>23</span>
+                </div>
+                <div class="extra-image">
+                    <img id="bg_change" src="assets/theme-btn.png" alt="Extra Image">
+                </div>
+            </div>
+        </header>
+
+        
+        <section class="main-bord">
+            <div class="task-info">
+                <div class="task-bord">
+                    <img src="assets//checkbox.png" alt="External Image">
+                    <p>Task Assigned <span id="task_number">0</span></p>
+                </div>
+               <div class="main-board">
+                <img src="assets/calander.png" alt="">
+                <a href="queary.html" class="highlight"> Discover Something New Today!</a>
+               </div>
+                <div class="task-bord">
+                    <img src="assets/cal.jpeg" alt="">
+                    <p class="date"><strong id="day"></strong>, <strong id="date"></strong></p>
+                </div>
+            </div>
+    
+            
+            <div class="main-container">
+               
+                <div class="task-board">
+                    <div class="task">
+                        <h3>Fix Mobile Button Issue</h3>
+                        <p>Debug using Chrome DevTools, check for overlap...</p>
+                        <div class="dedline-div">
+                            <p class="dedline" ><strong>Deadline:</strong> 21 March 2025</p>
+                        <button class="completed">Completed</button>
+                        </div>
+                    </div>
+                    
+                    <div class="task">
+                        <h3>Add Dark Mode</h3>
+                        <p>Store the user's preference in localStorage, update CSS variables...</p>
+                        <div class="dedline-div">
+                            <p class="dedline" ><strong>Deadline:</strong> 22 March 2025</p>
+                        <button class="completed">Completed</button>
+                        </div>
+                    </div>
+                    
+                    <div class="task">
+                        <h3>Optimize Home Page</h3>
+                        <p>Improve page load speed, minimize CSS and JS files...</p>
+                        <div class="dedline-div">
+                            <p class="dedline" ><strong>Deadline:</strong> 23 March 2025</p>
+                        <button class="completed">Completed</button>
+                        </div>
+                    </div>
+                
+                    <div class="task">
+                        <h3>Integrate OpenAI API</h3>
+                        <p>Connect chatbot with OpenAI API for smart responses...</p>
+                        <div class="dedline-div">
+                            <p class="dedline" ><strong>Deadline:</strong> 24 March 2025</p>
+                        <button class="completed">Completed</button>
+                        </div>
+                    </div>
+                
+                    <div class="task">
+                        <h3>UI/UX Design Review</h3>
+                        <p>Review Figma design and implement updates...</p>
+                        <div class="dedline-div">
+                            <p class="dedline" ><strong>Deadline:</strong> 25 March 2025</p>
+                        <button class="completed">Completed</button>
+                        </div>
+                    </div>
+                
+                    <div class="task">
+                        <h3>Database Optimization</h3>
+                        <p>Analyze SQL queries and improve indexing...</p>
+                        <div class="dedline-div">
+                            <p class="dedline" ><strong>Deadline:</strong> 26 March 2025</p>
+                        <button class="completed">Completed</button>
+                        </div>
+                    </div>
+                </div>
+    
+               
+                <div class="activity-log">
+                    <h3> <img src="assets/watch.jpeg" alt="">Activity Log</h3>
+                    <button class="clear_history" id="clearhistory">Clear History</button>
+                    <p>You have completed the task "Add Dark Mode" at 12:48:15 PM</p>
+                    <p>You have completed the task "Optimize Home Page" at 1:15:32 PM</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
